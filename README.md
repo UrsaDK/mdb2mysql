@@ -14,8 +14,8 @@ Requirements
 - mdbtools >= 0.7.1  
   See: https://github.com/brianb/mdbtools
 
-Usage
------
+Synopsis
+--------
 
 ```
 mdb2mysql [options] <mdb file>
