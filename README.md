@@ -2,7 +2,7 @@ mdb2sql
 =======
 
 **Version:** 1.1.0  
-**Status:** Fully functional
+**Status:** Fully functional, but missing tests.
 
 A tool to convert Microsoft Access databases into MySQL compatible SQL dump file, which would allow you to import the data in to MySQL.
 
