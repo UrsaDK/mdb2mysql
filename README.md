@@ -1,5 +1,5 @@
-mdb2sql
-=======
+mdb2mysql
+=========
 
 **Version:** 1.1.0  
 **Status:** Fully functional, but missing tests.
