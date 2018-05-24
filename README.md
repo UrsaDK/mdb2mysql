@@ -4,7 +4,7 @@ mdb2mysql
 **Version:** 1.1.0  
 **Status:** Fully functional, but missing tests.
 
-A tool to convert Microsoft Access databases into MySQL compatible SQL dump file, which would allow you to import the data in to MySQL.
+A tool to convert Microsoft Access databases into MySQL compatible SQL dump file. This file can then be imported into MySQL just like a standard SQL dump.
 
 Requirements
 ------------
@@ -55,3 +55,16 @@ Changelog
 * v1.0.0
 
   - First release by Bill Lewis <bill@enobis.com>
+
+Donations
+---------
+
+This script is 100% free and is distributed under the terms of the MIT license. You're welcome to use it for private or commercial projects and to generally do whatever you want with it.
+
+If you found this script useful, would like to support its further development, or you are just feeling generous, then your contribution will be greatly appreciated!
+
+<p align="center">
+  <a href="https://paypal.me/UmkaDK"><img src="https://img.shields.io/badge/paypal-me-blue.svg?colorB=0070ba&logo=paypal" alt="PayPal.Me"></a>
+  &nbsp;
+  <a href="https://commerce.coinbase.com/checkout/a57f47ba-6656-421c-aabd-3fdc274725ce"><img src="https://img.shields.io/badge/coinbase-donate-gold.svg?colorB=ff8e00&logo=bitcoin" alt="Donate via Coinbase"></a>
+</p>
