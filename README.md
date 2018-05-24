@@ -59,7 +59,7 @@ Changelog
 Donations
 ---------
 
-This script is 100% free and is distributed under the terms of the MIT license. You're welcome to use it for private or commercial projects and to generally do whatever you want with it.
+This script is 100% free and is distributed under the terms of the GNU General Public License. You're welcome to use it for private or commercial projects and to generally do whatever you want with it.
 
 If you found this script useful, would like to support its further development, or you are just feeling generous, then your contribution will be greatly appreciated!
 
