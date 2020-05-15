@@ -75,7 +75,7 @@ print <<EOHEAD;
 -- $VERSION
 --
 -- Created By: Bill Lewis <bill\@enobis.com>
--- Updated By: Dmytro Konstantinov <umka.dk\@icloud.com>
+-- Updated By: Dmytro Konstantinov <ursa.dk\@icloud.com>
 --
 -- Copyright 2004
 --
@@ -406,7 +406,7 @@ sub VERSION_MESSAGE()
 {
   print $VERSION, "\n";
   print "Created By: Bill Lewis <bill\@enobis.com>\n";
-  print "Updated By: Dmytro Konstantinov <umka.dk\@icloud.com>\n";
+  print "Updated By: Dmytro Konstantinov <ursa.dk\@icloud.com>\n";
   print "GNU General Public License (http://www.gnu.org/copyleft/gpl.html)\n";
 }
 
