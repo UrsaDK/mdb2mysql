@@ -29,9 +29,9 @@ A tool to convert Microsoft Access databases into MySQL compatible SQL dump file
       -e             Use the much faster, extended INSERT syntax.
       -i             Export data inserts only.
       -l             Add locks around insert statements.
-      -o <tables>    Omit tables in this comma seperated list.
+      -o <tables>    Omit tables in this comma separated list.
       -r <character> Replace illegal characters with given character.
-      -t <tables>    Export only this list of comma seperated tables.
+      -t <tables>    Export only this list of comma separated tables.
       -u             Report unknown Access data type and exit.
       -x             Same as using -d -e -l combined options.
       -M             Convert Access System tables ('MSys') as well.
