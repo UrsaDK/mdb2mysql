@@ -47,6 +47,7 @@ A tool to convert Microsoft Access databases into MySQL compatible SQL dump file
 * v1.1.1
 
   - Minor documentation updates.
+  - Reverted to GNU General Public License v3.
 
 * v1.1.0
 
