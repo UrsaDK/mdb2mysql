@@ -44,6 +44,10 @@ A tool to convert Microsoft Access databases into MySQL compatible SQL dump file
 
 ## Changelog
 
+* v1.1.1
+
+  - Minor documentation updates
+
 * v1.1.0
 
   - Added ability to specify character set for the incoming data in MySQL. This allows for the import of multilingual data from Access databases.
