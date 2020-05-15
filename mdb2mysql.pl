@@ -2,9 +2,10 @@
 ##########
 #
 #  File: mdb2mysql
+#  Repo: https://github.com/UrsaDK/mdb2mysql
 #
 #  Created By:   Bill Lewis <bill@enobis.com>
-#  Updated By:   Dmytro Konstantinov <umka.dk@icloud.com>
+#  Updated By:   Dmytro Konstantinov <ursa.dk@icloud.com>
 #
 #  Description:  Perl script to convert MS Access (mdb) files to an import
 #                schema suitable for MySQL.
@@ -16,38 +17,14 @@
 #  the terms of the GNU General Public License as published by the Free
 #  Software Foundation.  You should have received a copy of the GNU
 #  General Public License along with this software; if not, visit:
+#
 #            http://www.gnu.org/copyleft/gpl.html
-#
-#  Revision History:
-#
-#    v1.1.0 - Dec 08, 2005 - Dmytro Konstantinov <umka.dk@icloud.com>
-#
-#             o Added ability to specify character set for the incoming data in
-#               MySQL. This allows for the import of multilingual data from
-#               Access databases.
-#
-#    v1.0.1 - Dec 08, 2005 - Dmytro Konstantinov <umka.dk@icloud.com>
-#
-#             o All table and column names are now quoted. Thus, fixing a
-#               problem when dealing with tables or column names that contain
-#               spaces as part of their name.
-#
-#             o Illegal characters are now stripped out from table/column names
-#               by default rather then being replaced by an underscore. This is
-#               done to encourage the use of clean table/column names.
-#
-#             o To avoid errors when trying to move NULL value from Access to
-#               MySQL, all columns within MySQL are now allowed to have NULL
-#               values. Also, since MDBTools do not export a default value for
-#               a column, it is now left to be set by MySQL.
-#
-#    v1.0.0 - First release (Oct 14, 2004) Bill Lewis <bill@enobis.com>
 #
 #############################################################################
 use strict;
 use Getopt::Std;
 
-my $VERSION = "MDB2MySQL v1.1.0";
+my $VERSION = "MDB2MySQL v1.1.1";
 
 ##########
 #
